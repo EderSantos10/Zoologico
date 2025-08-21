@@ -1,4 +1,4 @@
-package org.example;
+package org.example.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,10 +10,9 @@ public class Zoologico {
         animais.add(animal);
     }
 
-    public void mostrarAnimais() {
-        for (Animal a : animais) {
-            a.emitirSom();
+    public void emitirSons() {
+        for (Animal animal : animais) {
+            animal.emitirSom();
         }
     }
 }
-

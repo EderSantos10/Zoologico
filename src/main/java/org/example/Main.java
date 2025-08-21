@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.entities.Leao;
+import org.example.entities.Macaco;
+import org.example.entities.Zoologico;
+
 import java.util.Scanner;
 
 public class Main {
